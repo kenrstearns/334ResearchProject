@@ -1,0 +1,617 @@
+\doxysection{main.\+cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{main.cpp@{main.cpp}}
+
+
+Contains all of the code.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_aab59bca574fd3bce4531bb80ca3bad7a}{insertion\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int n, int \&counter)
+\begin{DoxyCompactList}\small\item\em Insertion Sort This function will sort an integer array by use of an insertion sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ada238b3b8e918a24359a8a189418684d}{bubble\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int n, int \&counter)
+\begin{DoxyCompactList}\small\item\em Bubble Sort This function will sort an integer array by use of an bubble sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a1fdfec0c2e087ed7c6a339cde128260a}{merge}} (int arr\mbox{[}$\,$\mbox{]}, int left, int mid, int right, int \&counter)
+\begin{DoxyCompactList}\small\item\em Merge function This function will sort an array via merging. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a2d2719b8c2d555143bc9b458128803c9}{merge\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int begin, int end, int \&counter)
+\begin{DoxyCompactList}\small\item\em Merge Sort This function will send the information to the merge function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a590bdc7c45487a2d82ff73c7d2357d49}{heapify}} (int arr\mbox{[}$\,$\mbox{]}, int N, int i, int \&counter)
+\begin{DoxyCompactList}\small\item\em Heapify This function will be the guts of the Heap sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a0ac302b8b71e1de7d6e8e66c93560988}{heap\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int N, int \&counter)
+\begin{DoxyCompactList}\small\item\em Heap Sort This function will sort an integer array by use of an Heap sort. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a52a30264585194fcd85c8dd7429eed66}{get\+Max}} (int arr\mbox{[}$\,$\mbox{]}, int n, int \&counter)
+\begin{DoxyCompactList}\small\item\em get\+Max This function will find the max integer in an array \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a100156697547b8522ad650270becc7bc}{count\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int n, int exp, int \&counter)
+\begin{DoxyCompactList}\small\item\em Count Sort This function will sort an integer array by use of a count sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a08c15d63cf3fc7702bfb471b9e7014c9}{radix\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int n, int \&counter)
+\begin{DoxyCompactList}\small\item\em Radix Sort This function will sort an integer array by use of a Radix sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ad1f6d5159c910aba6bb45f9c6e5c43e7}{selection\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int n, int \&counter)
+\begin{DoxyCompactList}\small\item\em Selection Sort This function will sort an integer array by use of a Selection sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ac4196647cdda2c833e34c8eb47dbab3d}{insert\+Tim\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int left, int right, int \&counter)
+\begin{DoxyCompactList}\small\item\em Insert Tim Sort This function will sort an array via insertion for the Tim Sort function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a559d217e03d51605e71120242a1bb278}{merge\+Tim}} (int arr\mbox{[}$\,$\mbox{]}, int l, int m, int r, int \&counter)
+\begin{DoxyCompactList}\small\item\em Merge Tim Sort This function will sort an array via merging for the Tim Sort function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a1209231b7fe4da35efd9acb9f7bb516e}{tim\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int n, int \&counter)
+\begin{DoxyCompactList}\small\item\em Tim Sort This function will sort an integer array by use of a Tim Sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a8400c58c464d0cefc681a841cac47f25}{pigeon\+Hole\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int n, int \&counter)
+\begin{DoxyCompactList}\small\item\em Pigeonhole Sort This function will sort an integer array by use of a Pigeonhole sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a5d1be08b0c289000f8cf9b9e4b371686}{comp\+And\+Swap}} (int arr\mbox{[}$\,$\mbox{]}, int i, int j, int dir, int \&counter)
+\begin{DoxyCompactList}\small\item\em Comp\+And\+Swap This function will compare two integers and swap if necessary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ac387bdfaa151830d8648ada60668d91c}{bitronic\+Merge}} (int arr\mbox{[}$\,$\mbox{]}, int low, int mid, int dir, int \&counter)
+\begin{DoxyCompactList}\small\item\em Bitronic Merge This function will merge two arrays as needed for the Bitronic Sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ab692ad9d211b4c1cf04ee3211ed707cf}{bitronic\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int low, int mid, int dir, int \&counter)
+\begin{DoxyCompactList}\small\item\em Bitronic Sort This function will sort an integer array by use of a Bitronic Sort. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a208b1eca3046feb547bab36e762a9287}{bit\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int N, int up, int \&counter)
+\begin{DoxyCompactList}\small\item\em Bit Sort This function calls on the bitronic sort function to add in the applicable values. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a33585a59557d010796f15647fdc2a3f5}{get\+Next\+Gap}} (int gap, int \&counter)
+\begin{DoxyCompactList}\small\item\em get\+Next\+Gap This function will get the next gap as required for the comb sort \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a61192384144347720d3bb3d9edba1450}{comb\+Sort}} (int arr\mbox{[}$\,$\mbox{]}, int n, int \&counter)
+\begin{DoxyCompactList}\small\item\em Comb Sort This function will sort an integer array by use of an Comb sort. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{main_8cpp_aae5135e582ef1af39cc2a9c3744c170d}{RUN}} = 32
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contains all of the code. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_ac387bdfaa151830d8648ada60668d91c}\label{main_8cpp_ac387bdfaa151830d8648ada60668d91c} 
+\index{main.cpp@{main.cpp}!bitronicMerge@{bitronicMerge}}
+\index{bitronicMerge@{bitronicMerge}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{bitronicMerge()}{bitronicMerge()}}
+{\footnotesize\ttfamily void bitronic\+Merge (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{low,  }\item[{int}]{mid,  }\item[{int}]{dir,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Bitronic Merge This function will merge two arrays as needed for the Bitronic Sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Left} & end of array \\
+\hline
+{\em Middle} & of array \\
+\hline
+{\em Direction} & integer \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Merged arrays 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\Hypertarget{main_8cpp_ab692ad9d211b4c1cf04ee3211ed707cf}\label{main_8cpp_ab692ad9d211b4c1cf04ee3211ed707cf} 
+\index{main.cpp@{main.cpp}!bitronicSort@{bitronicSort}}
+\index{bitronicSort@{bitronicSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{bitronicSort()}{bitronicSort()}}
+{\footnotesize\ttfamily void bitronic\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{low,  }\item[{int}]{mid,  }\item[{int}]{dir,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Bitronic Sort This function will sort an integer array by use of a Bitronic Sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em left} & end integer \\
+\hline
+{\em Middle} & integer \\
+\hline
+{\em direction} & integer \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 3
+Here is the caller graph for this function\+:
+% FIG 4
+\Hypertarget{main_8cpp_a208b1eca3046feb547bab36e762a9287}\label{main_8cpp_a208b1eca3046feb547bab36e762a9287} 
+\index{main.cpp@{main.cpp}!bitSort@{bitSort}}
+\index{bitSort@{bitSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{bitSort()}{bitSort()}}
+{\footnotesize\ttfamily void bit\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{N,  }\item[{int}]{up,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Bit Sort This function calls on the bitronic sort function to add in the applicable values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Up} & integer \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+Here is the caller graph for this function\+:
+% FIG 6
+\Hypertarget{main_8cpp_ada238b3b8e918a24359a8a189418684d}\label{main_8cpp_ada238b3b8e918a24359a8a189418684d} 
+\index{main.cpp@{main.cpp}!bubbleSort@{bubbleSort}}
+\index{bubbleSort@{bubbleSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{bubbleSort()}{bubbleSort()}}
+{\footnotesize\ttfamily void bubble\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Bubble Sort This function will sort an integer array by use of an bubble sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 7
+\Hypertarget{main_8cpp_a61192384144347720d3bb3d9edba1450}\label{main_8cpp_a61192384144347720d3bb3d9edba1450} 
+\index{main.cpp@{main.cpp}!combSort@{combSort}}
+\index{combSort@{combSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{combSort()}{combSort()}}
+{\footnotesize\ttfamily void comb\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Comb Sort This function will sort an integer array by use of an Comb sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 8
+Here is the caller graph for this function\+:
+% FIG 9
+\Hypertarget{main_8cpp_a5d1be08b0c289000f8cf9b9e4b371686}\label{main_8cpp_a5d1be08b0c289000f8cf9b9e4b371686} 
+\index{main.cpp@{main.cpp}!compAndSwap@{compAndSwap}}
+\index{compAndSwap@{compAndSwap}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{compAndSwap()}{compAndSwap()}}
+{\footnotesize\ttfamily void comp\+And\+Swap (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{i,  }\item[{int}]{j,  }\item[{int}]{dir,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Comp\+And\+Swap This function will compare two integers and swap if necessary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Integer} & for first comparison \\
+\hline
+{\em Integer} & for second comparison \\
+\hline
+{\em Direction} & sort is going \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Swapped values in array if applicable 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 10
+\Hypertarget{main_8cpp_a100156697547b8522ad650270becc7bc}\label{main_8cpp_a100156697547b8522ad650270becc7bc} 
+\index{main.cpp@{main.cpp}!countSort@{countSort}}
+\index{countSort@{countSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{countSort()}{countSort()}}
+{\footnotesize\ttfamily void count\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int}]{exp,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Count Sort This function will sort an integer array by use of a count sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Integer} & for exponent \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 11
+\Hypertarget{main_8cpp_a52a30264585194fcd85c8dd7429eed66}\label{main_8cpp_a52a30264585194fcd85c8dd7429eed66} 
+\index{main.cpp@{main.cpp}!getMax@{getMax}}
+\index{getMax@{getMax}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{getMax()}{getMax()}}
+{\footnotesize\ttfamily int get\+Max (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+get\+Max This function will find the max integer in an array 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Integer of max value 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 12
+\Hypertarget{main_8cpp_a33585a59557d010796f15647fdc2a3f5}\label{main_8cpp_a33585a59557d010796f15647fdc2a3f5} 
+\index{main.cpp@{main.cpp}!getNextGap@{getNextGap}}
+\index{getNextGap@{getNextGap}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{getNextGap()}{getNextGap()}}
+{\footnotesize\ttfamily int get\+Next\+Gap (\begin{DoxyParamCaption}\item[{int}]{gap,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+get\+Next\+Gap This function will get the next gap as required for the comb sort 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & for previous gap \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Integer for new gap 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 13
+\Hypertarget{main_8cpp_a590bdc7c45487a2d82ff73c7d2357d49}\label{main_8cpp_a590bdc7c45487a2d82ff73c7d2357d49} 
+\index{main.cpp@{main.cpp}!heapify@{heapify}}
+\index{heapify@{heapify}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{heapify()}{heapify()}}
+{\footnotesize\ttfamily void heapify (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{N,  }\item[{int}]{i,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Heapify This function will be the guts of the Heap sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Integer} & that is being heaped \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Heaping the values in an array. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 14
+Here is the caller graph for this function\+:
+% FIG 15
+\Hypertarget{main_8cpp_a0ac302b8b71e1de7d6e8e66c93560988}\label{main_8cpp_a0ac302b8b71e1de7d6e8e66c93560988} 
+\index{main.cpp@{main.cpp}!heapSort@{heapSort}}
+\index{heapSort@{heapSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{heapSort()}{heapSort()}}
+{\footnotesize\ttfamily void heap\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{N,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Heap Sort This function will sort an integer array by use of an Heap sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 16
+Here is the caller graph for this function\+:
+% FIG 17
+\Hypertarget{main_8cpp_aab59bca574fd3bce4531bb80ca3bad7a}\label{main_8cpp_aab59bca574fd3bce4531bb80ca3bad7a} 
+\index{main.cpp@{main.cpp}!insertionSort@{insertionSort}}
+\index{insertionSort@{insertionSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{insertionSort()}{insertionSort()}}
+{\footnotesize\ttfamily void insertion\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Insertion Sort This function will sort an integer array by use of an insertion sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 18
+\Hypertarget{main_8cpp_ac4196647cdda2c833e34c8eb47dbab3d}\label{main_8cpp_ac4196647cdda2c833e34c8eb47dbab3d} 
+\index{main.cpp@{main.cpp}!insertTimSort@{insertTimSort}}
+\index{insertTimSort@{insertTimSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{insertTimSort()}{insertTimSort()}}
+{\footnotesize\ttfamily void insert\+Tim\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{left,  }\item[{int}]{right,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Insert Tim Sort This function will sort an array via insertion for the Tim Sort function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Integer} & for left end \\
+\hline
+{\em Integer} & for right end \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 19
+\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+% FIG 20
+\Hypertarget{main_8cpp_a1fdfec0c2e087ed7c6a339cde128260a}\label{main_8cpp_a1fdfec0c2e087ed7c6a339cde128260a} 
+\index{main.cpp@{main.cpp}!merge@{merge}}
+\index{merge@{merge}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{merge()}{merge()}}
+{\footnotesize\ttfamily void merge (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{left,  }\item[{int}]{mid,  }\item[{int}]{right,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Merge function This function will sort an array via merging. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Left} & end of array \\
+\hline
+{\em Middle} & of array \\
+\hline
+{\em Right} & end of array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 21
+\Hypertarget{main_8cpp_a2d2719b8c2d555143bc9b458128803c9}\label{main_8cpp_a2d2719b8c2d555143bc9b458128803c9} 
+\index{main.cpp@{main.cpp}!mergeSort@{mergeSort}}
+\index{mergeSort@{mergeSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{mergeSort()}{mergeSort()}}
+{\footnotesize\ttfamily void merge\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{begin,  }\item[{int}]{end,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Merge Sort This function will send the information to the merge function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Left} & end of array \\
+\hline
+{\em Right} & end of array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 22
+Here is the caller graph for this function\+:
+% FIG 23
+\Hypertarget{main_8cpp_a559d217e03d51605e71120242a1bb278}\label{main_8cpp_a559d217e03d51605e71120242a1bb278} 
+\index{main.cpp@{main.cpp}!mergeTim@{mergeTim}}
+\index{mergeTim@{mergeTim}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{mergeTim()}{mergeTim()}}
+{\footnotesize\ttfamily void merge\+Tim (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{l,  }\item[{int}]{m,  }\item[{int}]{r,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Merge Tim Sort This function will sort an array via merging for the Tim Sort function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Left} & integer \\
+\hline
+{\em Middle} & Integer \\
+\hline
+{\em Right} & Integer \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 24
+\Hypertarget{main_8cpp_a8400c58c464d0cefc681a841cac47f25}\label{main_8cpp_a8400c58c464d0cefc681a841cac47f25} 
+\index{main.cpp@{main.cpp}!pigeonHoleSort@{pigeonHoleSort}}
+\index{pigeonHoleSort@{pigeonHoleSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{pigeonHoleSort()}{pigeonHoleSort()}}
+{\footnotesize\ttfamily void pigeon\+Hole\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Pigeonhole Sort This function will sort an integer array by use of a Pigeonhole sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 25
+\Hypertarget{main_8cpp_a08c15d63cf3fc7702bfb471b9e7014c9}\label{main_8cpp_a08c15d63cf3fc7702bfb471b9e7014c9} 
+\index{main.cpp@{main.cpp}!radixSort@{radixSort}}
+\index{radixSort@{radixSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{radixSort()}{radixSort()}}
+{\footnotesize\ttfamily void radix\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Radix Sort This function will sort an integer array by use of a Radix sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 26
+Here is the caller graph for this function\+:
+% FIG 27
+\Hypertarget{main_8cpp_ad1f6d5159c910aba6bb45f9c6e5c43e7}\label{main_8cpp_ad1f6d5159c910aba6bb45f9c6e5c43e7} 
+\index{main.cpp@{main.cpp}!selectionSort@{selectionSort}}
+\index{selectionSort@{selectionSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{selectionSort()}{selectionSort()}}
+{\footnotesize\ttfamily void selection\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Selection Sort This function will sort an integer array by use of a Selection sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 28
+\Hypertarget{main_8cpp_a1209231b7fe4da35efd9acb9f7bb516e}\label{main_8cpp_a1209231b7fe4da35efd9acb9f7bb516e} 
+\index{main.cpp@{main.cpp}!timSort@{timSort}}
+\index{timSort@{timSort}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{timSort()}{timSort()}}
+{\footnotesize\ttfamily void tim\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n,  }\item[{int \&}]{counter }\end{DoxyParamCaption})}
+
+
+
+Tim Sort This function will sort an integer array by use of a Tim Sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Integer} & Array \\
+\hline
+{\em Size} & of Integer Array \\
+\hline
+{\em Incrementor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sorted Array 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 29
+Here is the caller graph for this function\+:
+% FIG 30
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{main_8cpp_aae5135e582ef1af39cc2a9c3744c170d}\label{main_8cpp_aae5135e582ef1af39cc2a9c3744c170d} 
+\index{main.cpp@{main.cpp}!RUN@{RUN}}
+\index{RUN@{RUN}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{RUN}{RUN}}
+{\footnotesize\ttfamily const int RUN = 32}
+

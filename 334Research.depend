@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1702083513 source:c:\users\ken\desktop\homework\334research\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<algorithm>
+	<chrono>
+

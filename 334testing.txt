@@ -1,0 +1,215 @@
+Sorting Options:
+1: Insertion Sort
+2: Bubble Sort
+3: Merge Sort
+4: Heap Sort
+5: Radix Sort
+6: Selection Sort
+7 TimSort
+8: Pigeonhole Sort
+9: Bitronic Sort
+10: Comb Sort
+Enter option: 1
+Insertion sort has 25335879 number of operations in 38815 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 39932 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 39214 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 40640 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 40164 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 40137 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 41157 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 39880 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 41019 microseconds.
+Enter another option (number not listed to exit): 1
+Insertion sort has 25335879 number of operations in 40423 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 223319 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 224815 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 226667 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 225598 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 224563 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 225320 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 225291 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 226320 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 224926 microseconds.
+Enter another option (number not listed to exit): 2
+Bubble Sort has 99950004 number of operations in 224713 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 2002 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 1506 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 2004 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 1500 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 1502 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 1502 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 1502 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 1502 microseconds.
+Enter another option (number not listed to exit): 3
+Merge Sort has 133616 number of operations in 1500 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1913 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1502 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 2002 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1502 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1064 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1510 microseconds.
+Enter another option (number not listed to exit): 4
+Heap Sort has 290241 number of operations in 1001 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1001 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1001 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1001 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1000 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 499 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1085 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1502 microseconds.
+Enter another option (number not listed to exit): 5
+Radix Sort has 160049 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 61948 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 61747 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 61877 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 61278 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 60995 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 61290 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 61353 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 61001 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 61546 microseconds.
+Enter another option (number not listed to exit): 6
+Selection Sort has 50004999 number of operations in 62416 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 500 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 0 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 501 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 501 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 649 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 500 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 502 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 1002 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 502 microseconds.
+Enter another option (number not listed to exit): 7
+TimSort has 260043 number of operations in 501 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2502 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2503 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 3016 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2502 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2514 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2511 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2503 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2505 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2548 microseconds.
+Enter another option (number not listed to exit): 8
+Pigeonhole Sort has 62762 number of operations in 2002 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 3002 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 3503 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 4014 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 3503 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 4023 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 4014 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 3515 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 3518 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 3513 microseconds.
+Enter another option (number not listed to exit): 9
+Bitronic Sort has 539982 number of operations in 3502 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1000 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1001 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1501 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1001 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1001 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1000 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1236 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1500 microseconds.
+Enter another option (number not listed to exit): 10
+Comb Sort has 316770 number of operations in 1001 microseconds.
+Enter another option (number not listed to exit): 0
+
+Process returned 0 (0x0)   execution time : 57.797 s
+Press any key to continue.
